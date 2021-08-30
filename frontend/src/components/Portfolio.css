@@ -1,0 +1,29 @@
+body{
+    background-color:rgb(235, 236, 240);
+  }
+  .portfolio{
+    box-shadow: 0.25rem 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0.25rem 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0.25rem 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0.25rem 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  }
+   .portfolio:hover {
+  transform: rotate(-7deg);
+  -webkit-transform: rotate(-7deg);
+  -moz-transform: rotate(-7deg);
+  -o-transform: rotate(-7deg);
+  
+  }
+  @media (max-width: 767px) {
+    .timeline {
+        width: 100%;
+    }
+}

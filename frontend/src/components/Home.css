@@ -1,0 +1,108 @@
+body {
+    font-family: "Roboto Condensed";
+    height:100vh;
+  }
+  .navbar {
+     box-shadow: 0 10px 10px -2px rgba(0,0,0,.25);
+    z-index: 2;
+  }
+  .logo {
+    width: 3.25rem;
+  }
+  
+  nav a.nav-link {
+    letter-spacing: 0.0375rem;
+    cursor: pointer;
+  }
+  nav ul li {
+    text-transform: uppercase;
+  }
+  .navbar-nav > li > a {
+    font-size: 0.9rem;
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+    color: #fff;
+    border-top: 0.1875rem solid transparent;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none !important;
+    border-color: hidden !important;
+    outline: none !important;
+  }
+  .nav-brand {
+    max-width: 4rem;
+    padding: 0 !important;
+    height: 4rem;
+  }
+  .navbar-nav > li > a.active,
+  .navbar-nav > li > a:focus {
+    border-top: 0.1875rem solid #ffdf00;
+    color:white !important;
+  }
+  .navbar-nav > li > a:hover {
+    border-top: 0.1875rem solid #ffdf00;
+    opacity:1 !important;
+    color:rgb(224, 222, 222) !important;
+  }
+  .header-wrapper {
+    position: relative;
+    background: url("https://i.pinimg.com/564x/52/c4/0c/52c40c0db29c540adfb8a3a3ad3464e0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  .main-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Roboto Condensed";
+    z-index: 1;
+  }
+  .main-info h1 {
+    
+    color: #ffc145;
+    text-shadow: 0.1rem 0.1rem 0.1rem rgba(0.3, 0.3, 0.3, 0.3);
+  }
+  .typed-text {
+    font-size: 3rem;
+    color: #fff;
+  }
+  .btn-main {
+    border: 1px solid  white !important;
+    text-transform: uppercase;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    text-align:center;
+    color: white !important;
+    font-weight:500;
+    margin-top: 2rem;
+    border-radius: 0.3rem;
+    transition:all 0.5s ease-out;
+    background:linear-gradient(45deg,transparent 0%,rgba(230, 77, 77, 0.5) 50%, transparent 100%)!important;
+    background-position:1% 50%;
+    background-size: 300% 300%;
+    font-size:16px;
+    text-shadow:1px 1px 1px  rgba(0,0,0,0.3) !important;
+    }
+    .btn-main:hover{
+  background:linear-gradient (45%,transparent 0%,#f5cea2  50%,transparent 100%  ) !important;
+  color:#1b5377 !important;
+  text-shadow:1px 1px 1px  rgba(0,0,0,0.3) !important;
+   
+    }
+  
+  .tsparticles-canvas-el {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    opacity: 0.6;
+  }
+  
